@@ -2,7 +2,7 @@
 /*
  * Plugin Name: Example WP Composer Loaded Plugin
  * Description: Example plugin demonstrating making a plugin available for installation via composer
- * Version: 1.2.0
+ * Version: 2.0.0
  * Author: Sal Ferrarello
  * Author URI: http://salferrarello.com/
  */
@@ -21,6 +21,6 @@ add_filter( 'the_title', 'fe_example_wp_composer_loaded_plugin_title_mod', 15 );
  * @return string the post title with modifications
  */
 function fe_example_wp_composer_loaded_plugin_title_mod( $title ) {
-	$title = "!!!{$title}!!!";
+	$title = "?{$title}?";
 	return $title;
 }

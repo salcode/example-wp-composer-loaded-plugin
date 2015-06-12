@@ -1,0 +1,15 @@
+{
+  "name": "ironcode/example-wp-composer-loaded-plugin",
+  "description": "Example WP plugin loaded via composer from a Git repo",
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "^1.0"
+  },
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Sal Ferrarello",
+      "email": "sal@example.com"
+    }
+  ]
+}
